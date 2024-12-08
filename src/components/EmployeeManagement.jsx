@@ -107,7 +107,6 @@ export default function EmployeeManagement() {
         </div>
       </div>
 
-      {/* Modal */}
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="w-full max-w-md px-6 py-4 bg-white rounded-lg shadow-md">

@@ -9,7 +9,6 @@ const LeaveManagement = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // dispatch(addLeaveRequest({ employeeId, leaveType, days })); // Implement this action
     setEmployeeId('');
     setLeaveType('');
     setDays('');

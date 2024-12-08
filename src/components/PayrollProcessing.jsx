@@ -1,10 +1,9 @@
 import { useDispatch } from 'react-redux';
 
 const PayrollProcessing = () => {
-  const dispatch = useDispatch(); // Add process payroll action if needed
+  const dispatch = useDispatch(); 
 
   const handleProcessPayroll = () => {
-    // dispatch(processPayroll()); // Implement this action in your Redux slice
     alert('Payroll processed!');
   };
 

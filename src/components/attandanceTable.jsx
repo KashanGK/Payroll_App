@@ -50,7 +50,6 @@ export default function AttendanceTable() {
 
   return (
     <div className="min-h-screen px-6 py-8 sm:px-8 lg:px-10 bg-gradient-to-br from-purple-50 via-white to-indigo-50">
-      {/* User Details */}
       <div className="p-6 mb-8 bg-white border border-gray-200 rounded-lg shadow-md">
         {user ? (
           <>
@@ -67,7 +66,6 @@ export default function AttendanceTable() {
         )}
       </div>
 
-      {/* Attendance Table */}
       <div className="sm:flex sm:items-center">
         <div className="sm:flex-auto">
           <h1 className="text-2xl font-semibold text-indigo-900">Attendance</h1>
@@ -135,7 +133,6 @@ export default function AttendanceTable() {
         </div>
       </div>
 
-      {/* Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 z-10 flex items-center justify-center bg-black bg-opacity-50">
           <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-lg">

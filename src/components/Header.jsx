@@ -10,10 +10,9 @@ export default function Navbar() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  // Handle logout functionality
   const handleLogout = () => {
     dispatch(logout());
-    navigate("/login"); // Redirect to login page
+    navigate("/login"); 
   };
 
   return (
@@ -25,7 +24,6 @@ export default function Navbar() {
         <>
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
-              {/* Logo and Mobile Menu Button */}
               <div className="flex items-center">
                 <div className="flex items-center mr-2 -ml-2 md:hidden">
                   <Disclosure.Button className="inline-flex items-center justify-center p-2 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -42,7 +40,6 @@ export default function Navbar() {
                 </Link>
               </div>
 
-              {/* User Menu */}
               <div className="flex items-center">
                 <Menu as="div" className="relative ml-3">
                   <div>
@@ -76,7 +73,6 @@ export default function Navbar() {
 
           <Disclosure.Panel className="md:hidden">
             <div className="pt-2 pb-3 space-y-1">
-              {/* Add mobile-specific menu items if needed */}
               <Link
                 to="/dashboard"
                 className="block px-3 py-2 text-base font-medium rounded-md hover:bg-indigo-700 focus:bg-indigo-800"

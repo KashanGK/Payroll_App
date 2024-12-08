@@ -8,7 +8,6 @@ const SalaryManagement = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // dispatch(updateSalary({ employeeId, salary })); // Implement this action in your Redux slice
     setEmployeeId('');
     setSalary('');
   };

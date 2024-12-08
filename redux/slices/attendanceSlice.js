@@ -1,6 +1,6 @@
 import {createSlice} from '@reduxjs/toolkit';
 
-const initialState = []; // Array of attendance records with userId
+const initialState = []; 
 
 const attendanceSlice = createSlice({
 	name: 'attendance',

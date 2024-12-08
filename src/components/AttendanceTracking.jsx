@@ -5,11 +5,10 @@ const AttendanceTracking = () => {
   const [employeeId, setEmployeeId] = useState('');
   const [date, setDate] = useState('');
   const [hours, setHours] = useState('');
-  const dispatch = useDispatch(); // You will need to add corresponding action
+  const dispatch = useDispatch(); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // dispatch(addAttendance({ employeeId, date, hours })); // Implement this action in your Redux slice
     setEmployeeId('');
     setDate('');
     setHours('');

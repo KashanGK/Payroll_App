@@ -8,7 +8,6 @@ const TaxationCompliance = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // dispatch(updateTaxSettings({ taxCode, percentage })); // Implement this action in your Redux slice
     setTaxCode('');
     setPercentage('');
   };

@@ -30,7 +30,6 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
 
-              {/* Logo and navigation */}
               <div className="flex items-center justify-center flex-1 md:items-stretch md:justify-start">
                 <div className="flex items-center flex-shrink-0">
                   <img
@@ -65,7 +64,6 @@ export default function Navbar() {
                 </div>
               </div>
 
-              {/* Notification and user menu */}
               <div className="flex items-center">
                 <button className="p-1 text-gray-600 transition-colors duration-200 rounded-full hover:text-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                   <BellIcon className="w-6 h-6" aria-hidden="true" />
@@ -101,7 +99,6 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Mobile menu */}
           <Disclosure.Panel className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {navigation.map((item) => (
