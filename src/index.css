@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add this to your index.css or a separate CSS file */
+html, body {
+    height: 100%;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 1;
+  }
+  
